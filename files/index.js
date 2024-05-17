@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '3e633c3d-373f-4299-80fa-0b5f5c73b66f'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.f4i.cn';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '5ddVS93Eq0Uc9he880';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo1-0517.kgfkyfd.eu.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNmQzMjRiYWNiMTE0ZWNmZDViYTMzOTU0NzQzODY5YjUiLCJ0IjoiNzM0MGQwNTItNDA5My00ZmIzLTkxMDYtZjg5ZmIyYjhlN2Y2IiwicyI6Ik5qY3pObVZoTVRndFltWm1aUzAwWW1Wa0xUaGtOemt0TkRGbU1qTTVNR05oTVdGbSJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'brebvf.kgfkyfd.eu.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"6d324bacb114ecfd5ba33954743869b5","TunnelSecret":"YHSMtvqs0vnt8bHftqfaI+BIGO3PoT0ufWZhmq8/TRc=","TunnelID":"62f4fd69-5863-4ec1-ae42-5f9677a7f287"}';
 const CFIP = process.env.CFIP || 'government.se';
 const NAME = process.env.NAME || 'Choreo';
 
